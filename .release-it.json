@@ -1,0 +1,36 @@
+{
+  "git": {
+    "commitMessage": "chore: release v${version}"
+  },
+  "npm":{
+    "release": false
+  },
+  "github": {
+    "release": true
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "infile": "CHANGELOG.md",
+      "preset": "conventionalcommits",
+      "types": [
+        {
+          "type": "build",
+          "section": "Build Changes"
+        },
+        {
+          "type": "ci",
+          "section": "Changes to CI"
+        },
+        {
+          "type": "feat",
+          "section": "Features"
+        },
+        {
+          "type": "fix",
+          "section": "Bug Fixes"
+        },
+        {}
+      ]
+    }
+  }
+}
