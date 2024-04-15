@@ -1,5 +1,13 @@
 
 
+## [0.1.1](https://github.com/Adi8712/GetIt/compare/0.1.0...0.1.1) (2024-04-15)
+
+
+### Bug Fixes
+
+* made a test file ([d17ecba](https://github.com/Adi8712/GetIt/commit/d17ecba1848433a98a598c466d6b99c1b42badf2))
+* removed testFile ([5d6abc3](https://github.com/Adi8712/GetIt/commit/5d6abc3e54a72f91cfdd65f61c72e5d6bbd82b7c))
+
 ## 0.1.0 (2024-04-15)
 
 
